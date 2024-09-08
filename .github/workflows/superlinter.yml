@@ -19,7 +19,6 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
           check-latest: true
-          cache: true
       - uses: nttld/setup-ndk@v1
         id: setup-ndk
         with:
